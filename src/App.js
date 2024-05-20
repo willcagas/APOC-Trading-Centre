@@ -1,25 +1,46 @@
-import logo from './logo.svg';
+import React from 'react';
+
+import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
+import ItemForm from './components/ItemForm';
+import ItemList from './components/ItemList';
+import ItemDetail from './components/ItemDetail';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    const [items, setItems] = useState([]);
+
+    useEffect(() => {
+        fetch('/items.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => setItems(data))
+            .catch(error => console.error('Error fetching items:', error));
+    }, []);
+
+    const addItem = (item) => {
+        setItems([...items, item]);
+    };
+
+    return (
+        <Router>
+            <div className="App">
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<ItemList items={items} />} />
+                    <Route path="/post-listing" element={<ItemForm addItem={addItem} />} />
+                    <Route path="/item/:id" element={<ItemDetail items={items} />} />
+                </Routes>
+            </div>
+        </Router>
+    );
+};
 
 export default App;

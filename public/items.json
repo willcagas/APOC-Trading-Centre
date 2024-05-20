@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "Ray Gun",
+        "description": "Absolutely disintegrate zombies leaveing no trace of their entire existence...",
+        "tradeFor": "Tanks/Military Vehicles",
+        "image": "/images/RayGun.png",
+        "location": "Shopify Office"
+    },
+    {
+        "id": 2,
+        "name": "Rusty Chainsaw",
+        "description": "She may not look the best but she sure does work! Great for close encounters with the infected.",
+        "tradeFor": "Medical Supplies",
+        "image": "/images/Chainsaw.png",
+        "location": "Yorkdale Shopping Centre"
+    },
+    {
+        "id": 3,
+        "name": "Bottle of Mystery Liquid",
+        "description": "Found this behind the shed a few days ago. Who knows what it does? Find out!",
+        "tradeFor": "Batteries",
+        "image": "/images/Potion.png",
+        "location": "Art Gallery of Ontario"
+    },
+    {
+        "id": 4,
+        "name": "Hand Crank Radio",
+        "description": "The most reliable way to stay up-to-date with whats going on in this wasteland.",
+        "tradeFor": "Fuel",
+        "image": "/images/Radio.png",
+        "location": "Art Gallery of Ontario"
+    },
+    {
+        "id": 5,
+        "name": "Solar-Powered Flashlight",
+        "description": "The power of the sun in the palm of your hands! You'll Never run out of light with this bad-boy! (sunlight required)",
+        "tradeFor": "Ammo",
+        "image": "/images/Flashlight.png",
+        "location": "Yorkdale Shopping Centre"
+    },
+    {
+        "id": 6,
+        "name": "Kevlar Vest",
+        "description": "Keeps you safe from bites and bullets.",
+        "tradeFor": "Food Rations",
+        "image": "/images/Vest.png",
+        "location": "Art Gallery of Ontario"
+    },
+    {
+        "id": 7,
+        "name": "Portable Water Filter",
+        "description": "Turn nasty water into drinkable, tasty water because you do NOT wanna drink that radioactive stuff.",
+        "tradeFor": "Medical Kits",
+        "image": "/images/Filter.png",
+        "location": "Ontario Science Centre"
+    },
+    {
+        "id": 8,
+        "name": "Crossbow",
+        "description": "Silent and deadly, even if it is a pain to reload.",
+        "tradeFor": "Arrows",
+        "image": "/images/Crossbow.png",
+        "location": "Shopify Office"
+    },
+    {
+        "id": 9,
+        "name": "Survival Manual",
+        "description": "Learn how to survive without needing your momma.",
+        "tradeFor": "Matches",
+        "image": "/images/Manual.png",
+        "location": "Toronto Pearson International Airport"
+    },
+    {
+        "id": 10,
+        "name": "First Aid Kit",
+        "description": "If you don't want to die, this is something essential for you.",
+        "tradeFor": "Bandages",
+        "image": "/images/FAK.png",
+        "location": "Toronto Pearson International Airport"
+    },
+    {
+        "id": 11,
+        "name": "Machete",
+        "description": "Useful for cutting through both the wilderness and zombies.",
+        "tradeFor": "Rope",
+        "image": "/images/Machete.png",
+        "location": "Toronto Pearson International Airport"
+    },
+    {
+        "id": 12,
+        "name": "Geiger Counter",
+        "description": "Detect radiation levels to learn where you can't go and what you can't eat.",
+        "tradeFor": "Batteries",
+        "image": "/images/Geiger.png",
+        "location": "Ontario Science Centre"
+    },
+    {
+        "id": 13,
+        "name": "Gas Mask",
+        "description": "Protects from toxic gases excerted by zombies and humans alike.",
+        "tradeFor": "Filters",
+        "image": "/images/Mask.png",
+        "location": "Ontario Science Centre"
+    },
+    {
+        "id": 14,
+        "name": "Camouflage Netting",
+        "description": "Pretend you're Harry Potter as you stay hidden from enemies.",
+        "tradeFor": "Fishing Gear",
+        "image": "/images/CamoNet.png",
+        "location": "Scarborough Town Centre"
+    },
+    {
+        "id": 15,
+        "name": "Handmade Grenades",
+        "description": "Unregulated means uncapped potential.",
+        "tradeFor": "Canned Food",
+        "image": "/images/Grenade.png",
+        "location": "Ontario Science Centre"
+    },
+    {
+        "id": 16,
+        "name": "Flare Gun",
+        "description": "A bright-ass light to signal for help or scare away threats.",
+        "tradeFor": "Flares",
+        "image": "/images/Flare.png",
+        "location": "Yorkdale Shopping Centre"
+    },
+    {
+        "id": 17,
+        "name": "Binoculars",
+        "description": "See them before they see you. Or... just look for things, I guess?",
+        "tradeFor": "Energy Bars",
+        "image": "/images/Binoculars.png",
+        "location": "Shopify Office"
+    },
+    {
+        "id": 18,
+        "name": "Portable Stove",
+        "description": "Cold food is nasty. Cook on the go to keep living that semi-luxurious hot food life.",
+        "tradeFor": "Fuel",
+        "image": "/images/Stove.png",
+        "location": "Shopify Office"
+    },
+    {
+        "id": 19,
+        "name": "Duct Tape",
+        "description": "It's not Flex Tape, but it fixes almost anything.",
+        "tradeFor": "Tools",
+        "image": "/images/Tape.png",
+        "location": "Scarborough Town Centre"
+    },
+    {
+        "id": 20,
+        "name": "Survival Backpack",
+        "description": "Be able to carry all your essentials.",
+        "tradeFor": "Clothing",
+        "image": "/images/Backpack.png",
+        "location": "Art Gallery of Ontario"
+    }
+]

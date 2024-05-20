@@ -1,0 +1,45 @@
+header {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #d6d6d6, #292929);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+nav {
+    padding-right: 20px;
+}
+
+button {
+    background-color: transparent;
+}
+
+nav a {
+    position: relative;
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+    text-decoration: none;
+    margin-right: 42px;
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: .3s;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
